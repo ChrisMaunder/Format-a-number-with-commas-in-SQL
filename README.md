@@ -2,7 +2,7 @@
 
 A small function to format numeric values
 
-```cpp
+```tsql
 CREATE FUNCTION dbo.com_FormatNumber(@value BIGINT) RETURNS VARCHAR(MAX)
 AS
 BEGIN
